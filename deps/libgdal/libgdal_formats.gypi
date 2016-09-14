@@ -59,6 +59,7 @@
 			"./gyp-formats/map.gyp:libgdal_map_frmt",
 			"./gyp-formats/zlib.gyp:libgdal_zlib_frmt",
 			"./gyp-formats/jpeg.gyp:libgdal_jpeg_frmt",
+			"./gyp-formats/jp2.gyp:libgdal_jp2_frmt",
 			"./gyp-formats/png.gyp:libgdal_png_frmt",
 			"./gyp-formats/ogr_shape.gyp:libgdal_ogr_shape_frmt",
 			"./gyp-formats/ogr_vrt.gyp:libgdal_ogr_vrt_frmt",
@@ -99,7 +100,7 @@
 			"./gyp-formats/ogr_wasp.gyp:libgdal_ogr_wasp_frmt"
 		],
 		"gdal_format_defs": [
-			"GDAL_FORMATS=gtiff hfa aigrid aaigrid ceos ceos2 iso8211 xpm sdts raw dted mem jdem envisat elas fit vrt usgsdem l1b nitf bmp pcidsk airsar rs2 ilwis rmf leveller sgi srtmhgt idrisi gsg ingr ers jaxapalsar dimap gff cosar pds adrg coasp tsx terragen blx til r northwood saga xyz hf2 kmlsuperoverlay ctg e00grid zmap ngsgeoid iris map zlib jpeg png ",
+			"GDAL_FORMATS=gtiff hfa aigrid aaigrid ceos ceos2 iso8211 xpm sdts raw dted mem jdem envisat elas fit vrt usgsdem l1b nitf bmp pcidsk airsar rs2 ilwis rmf leveller sgi srtmhgt idrisi gsg ingr ers jaxapalsar dimap gff cosar pds adrg coasp tsx terragen blx til r northwood saga xyz hf2 kmlsuperoverlay ctg e00grid zmap ngsgeoid iris map zlib jpeg jp2 png ",
 			"FRMT_gtiff=1",
 			"FRMT_hfa=1",
 			"FRMT_aigrid=1",
@@ -158,6 +159,7 @@
 			"FRMT_map=1",
 			"FRMT_zlib=1",
 			"FRMT_jpeg=1",
+			"FRMT_jp2=1",
 			"FRMT_png=1",
 			"SHAPE_ENABLED=1",
 			"VRT_ENABLED=1",
